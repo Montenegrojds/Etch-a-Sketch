@@ -1,0 +1,32 @@
+body{
+    background-color: #00c2a8;
+    text-align: center;
+    color:white;
+    
+    
+}
+
+
+.horisontalflex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+
+}
+
+.verticalflex{
+    display: flex;
+    flex-direction: column;
+    
+}
+.elementos{
+    width: var(--size);
+    background-color: white;
+    height: var(--size);
+    
+    border:solid;
+    border-color: black;
+   
+}
+
